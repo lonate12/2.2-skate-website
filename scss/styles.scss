@@ -1,9 +1,20 @@
 /* Bootstrap Variables */
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+$grid-gutter-width:         11px !default;
+
 /* Import Bootstrap */
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
-body {
-  background-color: blue;
-}
+/* Colors */
+$facebook-blue: #435992;
+$rsfeed-yellow: #CE8F44;
+$twitter-blue: #688EC2;
+$youtube-red: #B53632;
+$main-red: #B72631;
+$black: #000;
+$light-grey: #BCBBBC;
+$copy-grey: #575757;
+$white: #FFF;
+$shadow: #8A8987;
+$form-grey: #B1B1B1;
