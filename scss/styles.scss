@@ -8,7 +8,7 @@ $grid-gutter-width:         11px !default;
 
 /* Colors */
 $facebook-blue: #435992;
-$rsfeed-yellow: #CE8F44;
+$rss-yellow: #CE8F44;
 $twitter-blue: #688EC2;
 $youtube-red: #B53632;
 $main-red: #B72631;
@@ -18,3 +18,114 @@ $copy-grey: #575757;
 $white: #FFF;
 $shadow: #8A8987;
 $form-grey: #B1B1B1;
+
+/*Fonts*/
+$header-text: 'Titillium Web', sans-serif;
+$body-text: 'Roboto', sans-serif;
+
+/*Global Styles*/
+
+body {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content:"";
+  background-color: rgba(0,0,0,.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1, a {
+  color: $white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $white;
+}
+
+h1 {
+  font-family: $header-text;
+}
+
+.shadow {
+  box-shadow: 0 5px rgba(255,255,255,.6);
+}
+
+h2, h3, p {
+  font-family: $body-text;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.social-nav {
+  position: relative;
+  height: 75px;
+
+  .subscribe {
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  a:hover i {
+    color: $white;
+  }
+
+  ul {
+    display: inline-block;
+    float: right;
+    margin-top: 6px;
+  }
+
+  li {
+    height: 60px;
+    width: 60px;
+  }
+
+  i {
+    font-size: 34px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .facebook {
+    background-color: $facebook-blue;
+    i {
+      color: #7484AF;
+    }
+  }
+
+  .rss {
+    background-color: $rss-yellow;
+    i {
+      color: #D9AA71;
+    }
+  }
+
+  .twitter {
+    background-color: $twitter-blue;
+    i {
+      color: #8FA9D0;
+    }
+  }
+
+  .youtube {
+    background-color: $youtube-red;
+    i {
+      color: #CC6664;
+    }
+  }
+}

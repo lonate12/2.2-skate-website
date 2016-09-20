@@ -5809,5 +5809,78 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /* Colors */
+/*Fonts*/
+/*Global Styles*/
+body {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  position: relative; }
+
+body::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+h1, a {
+  color: #FFF; }
+
+a:hover {
+  text-decoration: none;
+  color: #FFF; }
+
+h1 {
+  font-family: "Titillium Web", sans-serif; }
+
+.shadow {
+  box-shadow: 0 5px rgba(255, 255, 255, 0.6); }
+
+h2, h3, p {
+  font-family: "Roboto", sans-serif; }
+
+ul {
+  list-style: none; }
+  ul li {
+    display: inline-block; }
+
+.social-nav {
+  position: relative;
+  height: 75px; }
+  .social-nav .subscribe {
+    text-transform: uppercase;
+    margin-top: 20px; }
+  .social-nav a:hover i {
+    color: #FFF; }
+  .social-nav ul {
+    display: inline-block;
+    float: right;
+    margin-top: 6px; }
+  .social-nav li {
+    height: 60px;
+    width: 60px; }
+  .social-nav i {
+    font-size: 34px;
+    display: block;
+    text-align: center;
+    padding: 15px 0; }
+  .social-nav .facebook {
+    background-color: #435992; }
+    .social-nav .facebook i {
+      color: #7484AF; }
+  .social-nav .rss {
+    background-color: #CE8F44; }
+    .social-nav .rss i {
+      color: #D9AA71; }
+  .social-nav .twitter {
+    background-color: #688EC2; }
+    .social-nav .twitter i {
+      color: #8FA9D0; }
+  .social-nav .youtube {
+    background-color: #B53632; }
+    .social-nav .youtube i {
+      color: #CC6664; }
 
 /*# sourceMappingURL=styles.css.map */
