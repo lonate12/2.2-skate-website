@@ -5851,7 +5851,8 @@ ul {
   height: 75px; }
   .social-nav .subscribe {
     text-transform: uppercase;
-    margin-top: 20px; }
+    position: absolute;
+    top: 30px; }
   .social-nav a:hover i {
     color: #FFF; }
   .social-nav ul {
