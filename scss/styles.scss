@@ -46,6 +46,10 @@ body::before {
   width: 1024px;
 }
 
+.shadow {
+  box-shadow: 5px 0 #848381;
+}
+
 .first-row {
   min-height: 80px;
   position: relative;
@@ -146,6 +150,7 @@ border-left: 6px dotted #fff;
     width: 100%;
     height: 360px;
     border: 10px solid $white;
+    background-image: url("../images/top-main-edited.jpg");
   }
 }
 
