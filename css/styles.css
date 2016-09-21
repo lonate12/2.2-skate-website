@@ -5825,62 +5825,63 @@ body::before {
   left: 0;
   right: 0; }
 
-h1, a {
-  color: #FFF; }
+.container {
+  width: 1024px; }
 
-a:hover {
-  text-decoration: none;
-  color: #FFF; }
+.first-row {
+  min-height: 80px;
+  position: relative; }
+  .first-row p {
+    position: absolute;
+    top: 30px; }
+  .first-row a {
+    color: #FFF;
+    text-transform: uppercase; }
 
-h1 {
-  font-family: "Titillium Web", sans-serif; }
-
-.shadow {
-  box-shadow: 0 5px rgba(255, 255, 255, 0.6); }
-
-h2, h3, p {
-  font-family: "Roboto", sans-serif; }
-
-ul {
-  list-style: none; }
-  ul li {
-    display: inline-block; }
-
-.social-nav {
-  position: relative;
-  height: 75px; }
-  .social-nav .subscribe {
-    text-transform: uppercase;
-    margin-top: 20px; }
-  .social-nav a:hover i {
-    color: #FFF; }
-  .social-nav ul {
+.social-list {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  list-style: none;
+  border-left: 6px dotted #fff; }
+  .social-list li {
     display: inline-block;
-    float: right;
-    margin-top: 6px; }
-  .social-nav li {
+    background-color: #B72631;
+    margin: 0 5px 16px 0;
     height: 60px;
-    width: 60px; }
-  .social-nav i {
-    font-size: 34px;
-    display: block;
-    text-align: center;
-    padding: 15px 0; }
-  .social-nav .facebook {
+    width: 60px;
+    position: relative; }
+  .social-list #facebook {
     background-color: #435992; }
-    .social-nav .facebook i {
-      color: #7484AF; }
-  .social-nav .rss {
+    .social-list #facebook a {
+      color: #6C7FB0; }
+  .social-list #rss {
     background-color: #CE8F44; }
-    .social-nav .rss i {
-      color: #D9AA71; }
-  .social-nav .twitter {
+    .social-list #rss a {
+      color: #DAAA6B; }
+  .social-list #twitter {
     background-color: #688EC2; }
-    .social-nav .twitter i {
-      color: #8FA9D0; }
-  .social-nav .youtube {
+    .social-list #twitter a {
+      color: #8BA9D2; }
+  .social-list #youtube {
     background-color: #B53632; }
-    .social-nav .youtube i {
-      color: #CC6664; }
+    .social-list #youtube a {
+      color: #C76862; }
+  .social-list i {
+    font-size: 38px;
+    position: absolute;
+    top: 10px;
+    left: 14px; }
+
+.social-icon-top {
+  display: inline-block;
+  height: 60px;
+  width: 60px; }
+
+.social-icon-top:hover i {
+  color: #FFF; }
+
+.nav li {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

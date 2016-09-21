@@ -41,91 +41,88 @@ body::before {
   right: 0;
 }
 
-h1, a {
-  color: $white;
+.container {
+  width: 1024px;
 }
 
-a:hover {
-  text-decoration: none;
-  color: $white;
-}
-
-h1 {
-  font-family: $header-text;
-}
-
-.shadow {
-  box-shadow: 0 5px rgba(255,255,255,.6);
-}
-
-h2, h3, p {
-  font-family: $body-text;
-}
-
-ul {
-  list-style: none;
-
-  li {
-    display: inline-block;
-  }
-}
-
-.social-nav {
+.first-row {
+  min-height: 80px;
   position: relative;
-  height: 75px;
+  p {
+    position: absolute;
+    top: 30px;
 
-  .subscribe {
-    text-transform: uppercase;
-    margin-top: 20px;
   }
 
-  a:hover i {
+  a {
     color: $white;
+    text-transform: uppercase;
   }
+}
 
-  ul {
+.social-list {
+position: absolute;
+right: 0;
+top: 5px;
+list-style: none;
+border-left: 6px dotted #fff;
+  li{
     display: inline-block;
-    float: right;
-    margin-top: 6px;
-  }
-
-  li {
+    background-color: $main-red;
+    margin: 0 5px 16px 0;
     height: 60px;
     width: 60px;
+    position: relative;
+  }
+
+  #facebook {
+    background-color: $facebook-blue;
+    a {
+      color: #6C7FB0;
+    }
+  }
+
+  #rss {
+    background-color: $rss-yellow;
+    a {
+      color: #DAAA6B;
+    }
+  }
+
+  #twitter {
+    background-color: $twitter-blue;
+    a {
+      color: #8BA9D2;
+    }
+  }
+
+  #youtube {
+    background-color: $youtube-red;
+    a {
+      color: #C76862;
+    }
   }
 
   i {
-    font-size: 34px;
-    display: block;
+    font-size: 38px;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+  }
+}
+
+.social-icon-top {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+}
+
+.social-icon-top:hover i {
+  color: $white;
+}
+
+.nav {
+  li {
     text-align: center;
-    padding: 15px 0;
-  }
-
-  .facebook {
-    background-color: $facebook-blue;
-    i {
-      color: #7484AF;
-    }
-  }
-
-  .rss {
-    background-color: $rss-yellow;
-    i {
-      color: #D9AA71;
-    }
-  }
-
-  .twitter {
-    background-color: $twitter-blue;
-    i {
-      color: #8FA9D0;
-    }
-  }
-
-  .youtube {
-    background-color: $youtube-red;
-    i {
-      color: #CC6664;
-    }
   }
 }
