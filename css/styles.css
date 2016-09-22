@@ -5830,7 +5830,7 @@ body::before {
   width: 1024px; }
 
 .shadow {
-  box-shadow: 5px 0 #848381; }
+  box-shadow: 0 5px #848381; }
 
 .first-row {
   min-height: 80px;
@@ -5904,6 +5904,9 @@ body::before {
     height: 360px;
     border: 10px solid #FFF;
     background-image: url("../images/top-main-edited.jpg"); }
+  .third-row img {
+    margin-top: 50px;
+    margin-left: 26px; }
 
 .fourth-row {
   margin-top: 15px; }
@@ -6014,6 +6017,7 @@ body::before {
     background-position: center center; }
 
 .seventh-row {
+  margin-top: 20px;
   margin-bottom: 30px;
   min-height: 300px;
   /*.bottom-left {*/

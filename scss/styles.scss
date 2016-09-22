@@ -47,7 +47,7 @@ body::before {
 }
 
 .shadow {
-  box-shadow: 5px 0 #848381;
+  box-shadow: 0 5px #848381;
 }
 
 .first-row {
@@ -151,6 +151,11 @@ border-left: 6px dotted #fff;
     height: 360px;
     border: 10px solid $white;
     background-image: url("../images/top-main-edited.jpg");
+  }
+
+  img {
+  margin-top: 50px;
+  margin-left: 26px;
   }
 }
 
@@ -316,6 +321,7 @@ border-left: 6px dotted #fff;
 }
 
 .seventh-row {
+  margin-top: 20px;
   margin-bottom: 30px;
   min-height: 300px;
 
