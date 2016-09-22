@@ -58,11 +58,18 @@ body::before {
     position: absolute;
     top: 30px;
 
+    @media (max-width: 991px) {
+      top: 37px;
+      left: 13px;
+      font-size: 18px;
+    }
+
   }
 
   a {
     color: $white;
     text-transform: uppercase;
+
   }
 }
 
@@ -137,6 +144,11 @@ border-left: 6px dotted #fff;
     text-transform: uppercase;
     color: $white;
     background-color: $main-red;
+
+    @media (max-width: 991px) {
+      font-size: 18px;
+      font-weight: bold;
+    }
   }
 }
 
@@ -155,13 +167,16 @@ border-left: 6px dotted #fff;
   }
 
   img {
-  margin-top: 50px;
-  margin-left: 26px;
+    padding: 50px 26px 0 26px;
   }
 }
 
 .fourth-row {
   margin-top: 15px;
+
+  @media (max-width: 991px) {
+    margin-top: 40px;
+  }
 
   h2, p, a {
     background-color: $white;
@@ -174,6 +189,11 @@ border-left: 6px dotted #fff;
     padding-left: 114px;
     color: $main-red;
     font-weight: bold;
+
+    @media (max-width: 991px) {
+      padding-left: 21px;
+      margin-bottom: 15px;
+    }
   }
 
   .date {
@@ -207,6 +227,10 @@ border-left: 6px dotted #fff;
     padding-top: 85px;
     text-transform: uppercase;
     letter-spacing: 3px;
+
+    @media (max-width: 991px) {
+      font-size: 75px;
+    }
   }
 
   .tall-pic {
@@ -215,7 +239,8 @@ border-left: 6px dotted #fff;
       padding-top: 191px;
 
       @media (max-width: 991px){
-      padding-top: 85px;
+      padding-top: 250px;
+      padding-right: 327px;
       }
     }
   }
@@ -237,6 +262,8 @@ border-left: 6px dotted #fff;
     @media (max-width: 991px) {
       background-size: cover;
       background-position: center center;
+      padding-top: 113px;
+      padding-right: 270px;
     }
   }
 
@@ -246,6 +273,8 @@ border-left: 6px dotted #fff;
     @media (max-width: 991px) {
       background-size: cover;
       background-position: center center;
+      padding-top: 236px;
+      padding-left: 495px;
     }
   }
 
@@ -364,9 +393,11 @@ border-left: 6px dotted #fff;
     min-height: 300px;
   }
 
-  /*.bottom-left {*/
-    /*height: 280px;*/
-  /*}*/
+  .bottom-left {
+    @media (max-width: 991px) {
+      margin-bottom: 0;
+    }
+  }
 
   h3, p {
     padding-left: 40px;
