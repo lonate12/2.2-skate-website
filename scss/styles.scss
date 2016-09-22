@@ -43,7 +43,8 @@ body::before {
 }
 
 .container {
-  width: 1024px;
+  width: 98%;
+  max-width: 1024px;
 }
 
 .shadow {
@@ -187,6 +188,11 @@ border-left: 6px dotted #fff;
 
   .skate-pic {
     height: 232px;
+
+    @media (max-width: 991px) {
+      height: 474px;
+      margin-top: 15px;
+    }
   }
 
   .name {
@@ -207,6 +213,10 @@ border-left: 6px dotted #fff;
     height: 474px;
     .name {
       padding-top: 191px;
+
+      @media (max-width: 991px){
+      padding-top: 85px;
+      }
     }
   }
 
@@ -214,25 +224,49 @@ border-left: 6px dotted #fff;
     position: absolute;
     left: 0;
     top: 242px;
+
+    @media (max-width: 991px) {
+    position: static;
+    }
   }
 
   .lance {
     background-image: url("../images/sk8er-4.png");
     background-position: -123px 0;
+
+    @media (max-width: 991px) {
+      background-size: cover;
+      background-position: center center;
+    }
   }
 
   .rodney {
     background-image: url("../images/sk8er-3.png");
+
+    @media (max-width: 991px) {
+      background-size: cover;
+      background-position: center center;
+    }
   }
 
   .tommy {
     background-image: url("../images/sk8er-2.png");
     background-position: -393px 4px;
+
+    @media (max-width: 991px) {
+      background-size: cover;
+      background-position: center center;
+    }
   }
 
   .steve {
     background-image: url("../images/sk8er-1.png");
     background-position: 0 -95px;
+
+    @media (max-width: 991px) {
+      background-size: cover;
+      background-position: center center;
+    }
   }
 }
 

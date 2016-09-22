@@ -5827,7 +5827,8 @@ body::before {
   right: 0; }
 
 .container {
-  width: 1024px; }
+  width: 98%;
+  max-width: 1024px; }
 
 .shadow {
   box-shadow: 0 5px #848381; }
@@ -5927,6 +5928,10 @@ body::before {
   margin-top: 41px; }
   .fifth-row .skate-pic {
     height: 232px; }
+    @media (max-width: 991px) {
+      .fifth-row .skate-pic {
+        height: 474px;
+        margin-top: 15px; } }
   .fifth-row .name {
     text-align: center;
     border: 5px solid #FFF;
@@ -5943,21 +5948,43 @@ body::before {
     height: 474px; }
     .fifth-row .tall-pic .name {
       padding-top: 191px; }
+      @media (max-width: 991px) {
+        .fifth-row .tall-pic .name {
+          padding-top: 85px; } }
   .fifth-row .long-pic {
     position: absolute;
     left: 0;
     top: 242px; }
+    @media (max-width: 991px) {
+      .fifth-row .long-pic {
+        position: static; } }
   .fifth-row .lance {
     background-image: url("../images/sk8er-4.png");
     background-position: -123px 0; }
+    @media (max-width: 991px) {
+      .fifth-row .lance {
+        background-size: cover;
+        background-position: center center; } }
   .fifth-row .rodney {
     background-image: url("../images/sk8er-3.png"); }
+    @media (max-width: 991px) {
+      .fifth-row .rodney {
+        background-size: cover;
+        background-position: center center; } }
   .fifth-row .tommy {
     background-image: url("../images/sk8er-2.png");
     background-position: -393px 4px; }
+    @media (max-width: 991px) {
+      .fifth-row .tommy {
+        background-size: cover;
+        background-position: center center; } }
   .fifth-row .steve {
     background-image: url("../images/sk8er-1.png");
     background-position: 0 -95px; }
+    @media (max-width: 991px) {
+      .fifth-row .steve {
+        background-size: cover;
+        background-position: center center; } }
 
 .sixth-row {
   margin-top: 31px; }
