@@ -5829,6 +5829,9 @@ body::before {
 .container {
   width: 98%;
   max-width: 1024px; }
+  @media (max-width: 585px) {
+    .container {
+      width: 100%; } }
 
 .shadow {
   box-shadow: 0 5px #848381; }
@@ -5854,6 +5857,9 @@ body::before {
   top: 5px;
   list-style: none;
   border-left: 6px dotted #fff; }
+  @media (max-width: 585px) {
+    .social-list {
+      border: none; } }
   .social-list li {
     display: inline-block;
     background-color: #B72631;
@@ -5962,6 +5968,9 @@ body::before {
     @media (max-width: 991px) {
       .fifth-row .name {
         font-size: 75px; } }
+    @media (max-width: 585px) {
+      .fifth-row .name {
+        font-size: 50px; } }
   .fifth-row .tall-pic {
     height: 474px; }
     .fifth-row .tall-pic .name {
@@ -5970,6 +5979,10 @@ body::before {
         .fifth-row .tall-pic .name {
           padding-top: 250px;
           padding-right: 327px; } }
+      @media (max-width: 585px) {
+        .fifth-row .tall-pic .name {
+          padding-top: 85px;
+          padding-right: 0px; } }
   .fifth-row .long-pic {
     position: absolute;
     left: 0;
@@ -5986,6 +5999,10 @@ body::before {
         background-position: center center;
         padding-top: 113px;
         padding-right: 270px; } }
+    @media (max-width: 585px) {
+      .fifth-row .lance {
+        padding-top: 85px;
+        padding-right: 0; } }
   .fifth-row .rodney {
     background-image: url("../images/sk8er-3.png"); }
     @media (max-width: 991px) {
@@ -5994,6 +6011,10 @@ body::before {
         background-position: center center;
         padding-top: 236px;
         padding-left: 40%; } }
+    @media (max-width: 585px) {
+      .fifth-row .rodney {
+        padding-top: 85px;
+        padding-left: 0; } }
   .fifth-row .tommy {
     background-image: url("../images/sk8er-2.png");
     background-position: -393px 4px; }
@@ -6070,7 +6091,7 @@ body::before {
   margin-top: 20px;
   margin-bottom: 30px;
   min-height: 300px; }
-  .seventh-row .bottom {
+  .seventh-row .form-background {
     background-color: #FFF;
     min-height: 300px; }
   @media (max-width: 991px) {
@@ -6112,6 +6133,9 @@ body::before {
       margin-bottom: 16px;
       text-transform: uppercase;
       font-family: "Open Sans", sans-serif; }
+      @media (max-width: 585px) {
+        .seventh-row form input, .seventh-row form textarea {
+          width: 100%; } }
     .seventh-row form #submit {
       width: 248px;
       background-color: #B72631;
@@ -6119,6 +6143,9 @@ body::before {
       text-transform: uppercase;
       position: absolute;
       right: 0; }
+      @media (max-width: 991px) {
+        .seventh-row form #submit {
+          position: relative; } }
 
 input#submit:hover {
   background-color: #840000; }
